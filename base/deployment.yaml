@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
       - name: petclinic
-        image: 175321200489.dkr.ecr.ap-northeast-2.amazonaws.com/petclinic:v1.0  # 여기를 실제 이미지로 변경
+        image: parkgyu/petclinic:20251215-133539-3dc94ac
         ports:
         - containerPort: 8080
         env:
