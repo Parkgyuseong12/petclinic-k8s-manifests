@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: petclinic-config
+  namespace: petclinic
+data:
+  DB_HOST: "tf-db.ccitclnvbmiv.ap-northeast-2.rds.amazonaws.com"  # Terraform output 값
+  DB_PORT: "3306"
+  DB_NAME: "mydb"
