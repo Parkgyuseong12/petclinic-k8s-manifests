@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
       - name: petclinic
-        image: parkgyu/petclinic:20251215-140428-06e06f4
+        image: parkgyu/petclinic:20251215-142741-c8062a6
         ports:
         - containerPort: 8080
         env:
